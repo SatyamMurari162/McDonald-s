@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+#orderButton {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#foodImage {
+    display: none;
+    max-width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#orderId {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Food Ordering</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="sidebar">
+        <h3>Food Items</h3>
+        <form id="foodForm">
+            <label><input type="checkbox" name="foodItem" value="Burger" onchange="updateImage()"> Burger</label><br>
+            <label><input type="checkbox" name="foodItem" value="Pizza" onchange="updateImage()"> Pizza</label><br>
+            <label><input type="checkbox" name="foodItem" value="Fries" onchange="updateImage()"> Fries</label><br>
+            <label><input type="checkbox" name="foodItem" value="Salad" onchange="updateImage()"> Salad</label><br>
+            <label><input type="checkbox" name="foodItem" value="IceCream" onchange="updateImage()"> Ice Cream</label><br>
+        </form>
+    </div>
+
+    <button id="orderButton" onclick="placeOrder()">Order Food</button>
+    <div id="orderId"></div>
+    <img id="foodImage" src="" alt="Food Image">
+</body>
+   
+</html>
+
+<script src="./script.js"></script>
